@@ -26,8 +26,5 @@ public class AuthService {
         }
         return client;
     }
-    public boolean isLoggedIn(){
-        return this.client != null;
-    }
 
 }
